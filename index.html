@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blogin.</title>
+</head>
+
+<body>
+    <div class="screen" onclick="toggleMenu()"></div>
+    <header class="main-header">
+        <div class="header-container flex nav-wrapper">
+            <div class="logo">Blogin<span class="dot">.</span> </div>
+    
+            
+    
+            <nav class="main-nav flex">
+                <ul class="flex clean-list">
+                        <img class="nav-border" src="img/nav-border.png" alt="">
+                    <li class="flex align-center"><a href="#">Journal</a>
+                        <img class="nav-border" src="img/nav-border.png" alt="">   
+                    </li>
+                    <li class="flex align-center"><a href="#">About</a>
+                        <img class="nav-border" src="img/nav-border.png" alt="">
+                    </li>
+                    <li class="flex align-center"><a href="#">Work</a>
+                        <img class="nav-border" src="img/nav-border.png" alt="">
+                    </li>
+                    <li class="flex align-center"><a href="#">Contact</a>
+                        <img class="nav-border" src="img/nav-border.png" alt="">
+                    </li>
+                </ul>
+            </nav>
+            <div id="mobile-menu-button flex" class="mobile-menu-button" onclick="toggleMenu()">☰</div>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <div class="blog-container flex wrap">
+
+            <!-- START ARTICLE -->
+            <div class="blog-item flex">
+                
+                <img class="blog-image" src="img/england-2372381_960_720.jpg" alt="">
+                
+                <div class="item-container">
+                    <h1 class="item-title">
+                        Duis aute irure dolor in 
+                        henderit in voluptate.
+                    </h1>
+                    <p class="item-text"> 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    </p>
+                    <button onclick="showModal()" class="item-button">Continue Reading</button>
+                </div>
+                
+            </div>
+            <!-- END ARTICLE -->
+
+        </div>
+
+        <div class="blog-container flex wrap">
+
+            <!-- START ARTICLE -->
+            <div class="blog-item flex">
+
+                <img class="blog-image" src="img/Layer_3.jpg" alt="">
+                
+                <div class="item-container">
+                    <h1 class="item-title">
+                        Duis aute irure dolor in 
+                        henderit in voluptate.
+                    </h1>
+                    <p class="item-text"> 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    </p>
+                    <button onclick="showModal()" class="item-button">Continue Reading</button>
+                </div>
+            
+            </div>
+            <!-- END ARTICLE -->
+
+        </div>
+
+        <div class="blog-container flex wrap">
+
+            <!-- START ARTICLE -->
+            <div class="blog-item flex">
+
+                <img class="blog-image" src="img/Layer_4.png" alt="">
+                
+                <div class="item-container">
+                    <h1 class="item-title">
+                        Duis aute irure dolor in 
+                        henderit in voluptate.
+                    </h1>
+                    <p class="item-text"> 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                    </p>
+                    <button onclick="showModal()" class="item-button">Continue Reading</button> 
+                </div>
+               
+            </div>
+            <!-- END ARTICLE -->
+
+        </div>
+
+    </main>
+            <div class="page-nav wrapper flex align-center">
+                <div class="prev">
+                    <img class="arrow left" src="img/pervious.png" alt="">
+                    <span> Previous</span>
+                </div>
+                <div class="next">
+                    <span>Next</span>
+                    <img class="arrow right" src="img/next.png" alt="">
+                </div>
+            </div>
+
+    <footer>
+        <div class="logo footer-logo">Blogin<span class="dot">.</span> </div>
+        <p class="footer-text"><span class="footer-txt1"> © 2014 Blogin.com </span> -  All Rights Reserved  -  Find more free Templates at <span class="footer-txt2"> Pixelhint.com</span></p>
+
+        <div class="social-container flex align-center">
+            <div class="social facebook">
+                <img class="icon facebook-icon" src="img/facebook.png" alt="">
+            </div>
+            <div class="social tweeter">
+                <img class="icon tweeter-icon" src="img/tweeter.png" alt="">
+            </div>
+            <div class="social behance">
+                <img class="icon behance-icon" src="img/behance.png" alt="">
+            </div>
+            <div class="social dribbble">
+                <img class="icon dribbble-icon" src="img/dribbble.png" alt="">
+            </div>
+           
+        </div>
+    <div class="modal-container">
+        <div class="modal">
+            <h3>
+                Join us to get access to the latest stories!
+            </h3>
+            <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <span>Email: </span> <input type="text">
+            <div class="close-modal" onclick="showModal()">Submit</div>
+            <div class="close-modal" onclick="showModal()">Close</div>
+        </div>
+    </div>
+    </footer>
+
+    <script>
+    
+    function toggleMenu() {
+            document.body.classList.toggle('open');
+        }
+        function showModal() {
+            var elModal = document.querySelector('.modal-container')
+            elModal.classList.toggle('show-modal');
+        }
+    
+    </script>
+</body>
+</html>
